@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
+<head>
+    <title>Functions</title>
+</head>
+<body onload="play()">
+    <script language="javascript" type="text/javascript">
+        //standard array
+        var computerScore = new Array();
+        computerScore[0] = 100;
+        computerScore[1]=90;
+        computerScore[2]=98;
+        //condenced method
+        var animals = new Array("dog","cat","mouse");
+        //literal array
+        var companies = ["apple","google","cnet"];
+        for(var i=0;i<animals.length;i++)
+        {     document.write(animals[i]);
+            document.write("<br>");
+        }
+        companies.sort();
+        for(var i=0;i<companies.length;i++)
+        {     document.write(companies[i]);
+            document.write("<br>");
+        }
+
+    </script>
+</body>
+</html>
